@@ -37,7 +37,7 @@ def name(
     shape = (240, 320)  # Input resolution.
     # Options: (240,320), (320,480), (380, 480), (360, 640), (480,640), (720, 1280)
 
-    version = "init"  # The combined version does 2 passes, one to get an initial estimation and a second one to refine it.
+    version = "combined"  # The combined version does 2 passes, one to get an initial estimation and a second one to refine it.
     # Options: "init", "combined"
 
     # Initialize model
